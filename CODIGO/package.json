@@ -1,0 +1,31 @@
+{
+  "name": "telegram-captcha",
+  "version": "1.2.0",
+  "description": "Protect telegram groups from automated bots.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "license": "MIT",
+  "keywords": [
+    "telegram",
+    "bot",
+    "calendar",
+    "node-telegram-bot-api",
+    "inline-keyboard",
+    "captcha"
+  ],
+  "dependencies": {
+    "node-telegram-bot-api": "^0.60.0",
+    "canvas": "^2.11.0",
+    "canvg": "^4.0.1",
+    "node-fetch": "^3.3.0",
+    "opentype.js": "^1.3.4",
+    "randomcolor": "^0.6.2",
+    "svg-captcha": "^1.4.0",
+    "humanize-duration": "^3.28.0",
+    "@xmldom/xmldom": "^0.8.7"
+  }
+}
